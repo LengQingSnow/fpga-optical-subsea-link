@@ -1,5 +1,24 @@
 # 面向水下图像与地震波的 FPGA 多源汇聚及相干光传输系统
 
+<!-- project-posters:start -->
+<table>
+  <tr>
+    <th width="50%">中文海报</th>
+    <th width="50%">English Poster</th>
+  </tr>
+  <tr>
+    <td align="center"><a href="poster/poster_zh.pdf"><img src="poster/poster_zh.png" alt="中文作品海报：FPGA 多源汇聚与 331 km 相干光传输" width="100%"></a></td>
+    <td align="center"><a href="poster/poster_en.pdf"><img src="poster/poster_en.png" alt="English project poster: FPGA multisource aggregation and 331 km coherent optical transmission" width="100%"></a></td>
+  </tr>
+  <tr>
+    <td align="center"><a href="poster/poster_zh.pdf">PDF 高清版</a> · <a href="poster/poster_zh.pptx">PPT 可编辑版</a></td>
+    <td align="center"><a href="poster/poster_en.pdf">PDF</a> · <a href="poster/poster_en.pptx">Editable PowerPoint</a></td>
+  </tr>
+</table>
+
+[海报文件与图片来源 / Poster files and image credits](poster/README.md)
+<!-- project-posters:end -->
+
 English first; a complete Chinese description follows below.
 英文在前，完整中文说明见下文。
 
