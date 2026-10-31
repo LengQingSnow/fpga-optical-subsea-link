@@ -1,4 +1,4 @@
-# SMF — FPGA Signal Aggregation and Coherent Optical Transmission
+# 面向水下图像与地震波的 FPGA 多源汇聚及相干光传输系统
 
 English first; a complete Chinese description follows below.
 英文在前，完整中文说明见下文。
