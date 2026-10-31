@@ -1,0 +1,44 @@
+Selected numeric excerpt from archived implementation report.
+Scope: timing metrics and clock table only; this is not the full implementation sign-off report.
+Source SHA256: 69ead08e7f6a10f68f2cf8f9b4bdd7f43593f56e6773ce853f8d19dc94931b60
+
+    WNS(ns)      TNS(ns)  TNS Failing Endpoints  TNS Total Endpoints      WHS(ns)      THS(ns)  THS Failing Endpoints  THS Total Endpoints     WPWS(ns)     TPWS(ns)  TPWS Failing Endpoints  TPWS Total Endpoints  
+    -------      -------  ---------------------  -------------------      -------      -------  ---------------------  -------------------     --------     --------  ----------------------  --------------------  
+      0.281        0.000                      0               108678        0.004        0.000                      0               108642        0.257        0.000                       0                 47950  
+
+Clock                                                                                       Waveform(ns)           Period(ns)      Frequency(MHz)
+-----                                                                                       ------------           ----------      --------------
+dbg_hub/inst/BSCANID.u_xsdbm_id/SWITCH_N_EXT_BSCAN.bscan_inst/SERIES7_BSCAN.bscan_inst/TCK  {0.000 16.500}         33.000          30.303          
+qpsk_clock_inst/inst/clk_in1                                                                {0.000 10.000}         20.000          50.000          
+  clk_out1_clk_wiz_qpsk                                                                     {0.000 4.000}          8.000           125.000         
+qsfp1_refclk                                                                                {0.000 3.200}          6.400           156.250         
+  gt_qpllclk_quad1_out_1                                                                    {0.000 0.097}          0.194           5156.250        
+    txoutclk_out[0]_1                                                                       {0.000 1.552}          3.103           322.266         
+      qsfp_tx_user_clk                                                                      {0.000 3.103}          6.206           161.133         
+  gt_qpllrefclk_quad1_out_1                                                                 {0.000 3.200}          6.400           156.250         
+qsfp2_refclk                                                                                {0.000 3.200}          6.400           156.250         
+  gt_qpllclk_quad1_out                                                                      {0.000 0.097}          0.194           5156.250        
+    rxoutclk_out[0]                                                                         {0.000 1.552}          3.103           322.266         
+    txoutclk_out[0]                                                                         {0.000 1.552}          3.103           322.266         
+      qsfp_rx_user_clk                                                                      {0.000 3.103}          6.206           161.133         
+  gt_qpllrefclk_quad1_out                                                                   {0.000 3.200}          6.400           156.250         
+rgmii1_rxc                                                                                  {0.000 4.000}          8.000           125.000         
+  clk_feedback_unbuffered                                                                   {0.000 4.000}          8.000           125.000         
+  clk_out_unbuffered                                                                        {-2.000 2.000}         8.000           125.000         
+    rgmii1_txc_io                                                                           {0.000 4.000}          8.000           125.000         
+rgmii2_rxc                                                                                  {0.000 4.000}          8.000           125.000         
+  clk_feedback_unbuffered_1                                                                 {0.000 4.000}          8.000           125.000         
+  clk_out_unbuffered_1                                                                      {-2.000 2.000}         8.000           125.000         
+    rgmii2_txc_io                                                                           {0.000 4.000}          8.000           125.000         
+rgmii3_rxc                                                                                  {0.000 4.000}          8.000           125.000         
+  clk_feedback_unbuffered_2                                                                 {0.000 4.000}          8.000           125.000         
+  clk_out_unbuffered_2                                                                      {-2.000 2.000}         8.000           125.000         
+    rgmii3_txc_io                                                                           {0.000 4.000}          8.000           125.000         
+rgmii4_rxc                                                                                  {0.000 4.000}          8.000           125.000         
+  clk_feedback_unbuffered_3                                                                 {0.000 4.000}          8.000           125.000         
+  clk_out_unbuffered_3                                                                      {-2.000 2.000}         8.000           125.000         
+    rgmii4_txc_io                                                                           {0.000 4.000}          8.000           125.000         
+sys_clk_p                                                                                   {0.000 5.000}          10.000          100.000         
+  clk_out1_clk_wiz_0                                                                        {0.000 10.000}         20.000          50.000          
+  clk_out2_clk_wiz_0                                                                        {0.000 2.500}          5.000           200.000         
+  clkfbout_clk_wiz_0                                                                        {0.000 5.000}          10.000          100.000         

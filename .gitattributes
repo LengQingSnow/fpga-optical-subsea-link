@@ -1,0 +1,11 @@
+# Preserve exact bytes for firmware hashes, datasets and historical sources.
+* -text
+*.bit -diff
+*.bin -diff
+*.elf -diff
+*.xsa -diff
+*.mat -diff
+*.png -diff
+*.jpg -diff
+*.pdf -diff
+*.exe -diff

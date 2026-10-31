@@ -1,0 +1,65 @@
+{
+  "scope": "Report chapter 3, read-only source inspection; no RTL modifications",
+  "files": [
+    {
+      "path": "code/ax7101/project/src/ax7101_dataset_top.v",
+      "sha256": "e572233059d3d334d49941b069ea25217e3e3243dd2dfc9428e17ba5d7ed7339"
+    },
+    {
+      "path": "code/ax7101/project/src/axi_dataset_reader.v",
+      "sha256": "92321e7f93fb83d50c3c3eefcddf2e10ac177ef985fd242cac89298fb1e819c8"
+    },
+    {
+      "path": "code/ax7101/project/src/axi_dataset_read_scheduler.v",
+      "sha256": "0b62d53adb1d09e535f0176679cec596b180e2a8ebaaebc5abbfec6d713cd3c2"
+    },
+    {
+      "path": "code/ax7101/project/src/dataset_packet_cursor.v",
+      "sha256": "f7a849a3f18895e912f108e658cd5e1af180b4c8e026a826279d6d403846707b"
+    },
+    {
+      "path": "code/ax7101/project/src/dataset_udp_tx.v",
+      "sha256": "60e1b973d013b5b81e1bbed81e5f1320e6da64efa2320192a163754d375e87ca"
+    },
+    {
+      "path": "code/ku115_txonly_fifo_fix/src/top.v",
+      "sha256": "e92fbb6a7340f9a1d92308fc6815dfd055d047bbc40cbd45a0fb66808ec8157c"
+    },
+    {
+      "path": "code/ku115_txonly_fifo_fix/src/eth_aggregate_4port.v",
+      "sha256": "2d93ba7dcb2671ee62d53d551434c8816e25c62de853813aec0728f4b992f3f9"
+    },
+    {
+      "path": "code/ku115_txonly_fifo_fix/src/qpsk_frame_aggregator.v",
+      "sha256": "5c37f39a1e442d817f4c0844d9a11f8eb8aea1a7cb7f1fb3d9575a3d1f7b74a2"
+    },
+    {
+      "path": "code/ku115_txonly_fifo_fix/src/qsfp_axis_tx_bridge.v",
+      "sha256": "700e26cc182d6917284105246eb386999555db2cd1fe3d99e42dd166d5b9f89c"
+    },
+    {
+      "path": "code/da_project/porject/vivado_prbs_validation_20260920/rtl/rf47_qsfp_dpqpsk_top.sv",
+      "sha256": "c665aa8257a7d13ea2d66d339c2824c69ddf80766432b6bf21df4f080d2f8bcc"
+    },
+    {
+      "path": "code/da_project/porject/vivado_prbs_validation_20260920/rtl/rf47_qsfp_rrc_core.sv",
+      "sha256": "14d28dde77de27af78d6a2199538783c68cb83c5515c0eb730f67e3b6c5563f7"
+    },
+    {
+      "path": "code/da_project/porject/vivado_prbs_validation_20260920/rtl/ber_reference_replay.sv",
+      "sha256": "7fc1833156a88188ccb0684d438c065fddf71d249aa0748131d8212d05684ced"
+    },
+    {
+      "path": "code/da_project/porject/rf47_persistent_long_prbs_20260922/main_long_prbs.c",
+      "sha256": "69adf90408db9827268b02e0a90ddbb4391d345687254aac119e8809e46c1009"
+    }
+  ],
+  "development_update": {
+    "source": "team statement in user request, 2026-10-31",
+    "format": "PCS-16QAM",
+    "ldpc_rate": "3/4",
+    "single_wavelength_post_fec_ber": 0,
+    "multi_wavelength": "implementation in progress",
+    "bit_count_and_duration": "not supplied; no unbounded zero-error claim"
+  }
+}

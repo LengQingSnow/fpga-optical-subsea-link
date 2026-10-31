@@ -1,0 +1,80 @@
+{
+  "note": "Archived artifacts; packaging did not synthesize, program, or revalidate hardware.",
+  "files": [
+    {
+      "path": "code/ax7101/project/bitstream/ax7101_dual_dataset_udp.bit",
+      "bytes": 3825903,
+      "sha256": "7be196fe8eb6f91efedf2aad9d8fbdcd5a8e9d74c02dcdabb0e68b3a1d09ba71"
+    },
+    {
+      "path": "code/ax7101/project/bitstream/ax7101_dual_dataset_udp.ltx",
+      "bytes": 429336,
+      "sha256": "4f22577c392ee70880cc3c5d2ea1d5b89705e41a9a20d4e971f0145a2081a5e4"
+    },
+    {
+      "path": "code/ax7101/project/bitstream/ax7101_dual_dataset_udp_trim160s_optimized.bit",
+      "bytes": 3825903,
+      "sha256": "974269cf04a759818622877bf1ab50a49481a1a4eb60a34f09b943af7f74a0c8"
+    },
+    {
+      "path": "code/ax7101/project/bitstream/ax7101_dual_dataset_udp_trim160s_optimized.ltx",
+      "bytes": 429336,
+      "sha256": "4f22577c392ee70880cc3c5d2ea1d5b89705e41a9a20d4e971f0145a2081a5e4"
+    },
+    {
+      "path": "code/da_project/porject/rf47_persistent_long_prbs_20260922/boot_rf47_long_prbs_20260922.bin",
+      "bytes": 34954824,
+      "sha256": "5fd05e05e8a9811dc2a6e4157215b6995e72d6f2544cefb105c02070c575af83"
+    },
+    {
+      "path": "code/da_project/porject/rf47_persistent_long_prbs_20260922/fsbl_a53.elf",
+      "bytes": 529352,
+      "sha256": "0ee631fcff8b0fdc8c5a98f70ffdcb2408ebc8252cc7069cd64b14b7131b70ac"
+    },
+    {
+      "path": "code/da_project/porject/rf47_persistent_long_prbs_20260922/fsbl_flash_helper.elf",
+      "bytes": 531840,
+      "sha256": "81da3883342e01351f6bf9ba0a2515a76577963cb7841d016aa623a50b802190"
+    },
+    {
+      "path": "code/da_project/porject/rf47_persistent_long_prbs_20260922/pmufw.elf",
+      "bytes": 510036,
+      "sha256": "59e4a1a20147ab9fbacc5b6a1cb4afbac0205e140e46073fe72416a161c99937"
+    },
+    {
+      "path": "code/da_project/porject/rf47_persistent_long_prbs_20260922/rf47_init_long_prbs.elf",
+      "bytes": 1466416,
+      "sha256": "2c6e6ffbcc956046e832128efd917aa192b90d1f31643b939249680236a42328"
+    },
+    {
+      "path": "code/da_project/porject/rf47_persistent_long_prbs_20260922/rf47_long_prbs.bit",
+      "bytes": 34437482,
+      "sha256": "33e09c056a123c6c6d7ae524a4eb907fe47c52411d9dfc85ec89c4f0e1aa6adb"
+    },
+    {
+      "path": "code/da_project/porject/vitis/output/rf47_init.elf",
+      "bytes": 1466408,
+      "sha256": "73566b415e4a88b7ea728a653a51e807ea04f4c64dd0b88cb25658ac9f0d57df"
+    },
+    {
+      "path": "code/da_project/porject/vivado/output/rf47_qsfp_dpqpsk_nrz_8gsps_runtime_cal.bit",
+      "bytes": 34437482,
+      "sha256": "a6daf9d4ad38f8f0a8473e93829872c51b20025451b6ee9778c8328d8c6f3a99"
+    },
+    {
+      "path": "code/da_project/porject/vivado/output/rf47_qsfp_dpqpsk_nrz_8gsps_runtime_cal.xsa",
+      "bytes": 4233232,
+      "sha256": "78221de23bd5c9d02827ce9390c876bb822be6b458095822c4e97ef1913ca341"
+    },
+    {
+      "path": "code/ku115_txonly_fifo_fix/bit_archive/sender_ku115_qsfp1tx_txonly_4gbaud_16g_packet_backpressure_fix.bit",
+      "bytes": 13328178,
+      "sha256": "14296efb015bb167aef0f8df182a5da891217e89b8130626c06dcd44fa7aa6a9"
+    },
+    {
+      "path": "code/ku115_txonly_fifo_fix/bit_archive/sender_ku115_qsfp1tx_txonly_4gbaud_16g_packet_backpressure_fix.ltx",
+      "bytes": 387943,
+      "sha256": "1d4085642d471371b2befba829a80f18df81b3072022915e187b5b23666d37dc"
+    }
+  ]
+}

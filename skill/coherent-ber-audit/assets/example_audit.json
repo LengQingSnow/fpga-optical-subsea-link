@@ -1,0 +1,60 @@
+{
+  "lanes": [
+    "TX0",
+    "TX2"
+  ],
+  "windows": [
+    {
+      "id": "0",
+      "time": "2026-10-31T12:00:00+08:00",
+      "valid": true,
+      "errors": 1,
+      "bits": 100,
+      "capture_id": "synthetic-0",
+      "reference_id": "synthetic-reference",
+      "train_ranges": [
+        [
+          0,
+          20
+        ]
+      ],
+      "test_ranges": [
+        [
+          20,
+          120
+        ]
+      ],
+      "ber": 0.01
+    },
+    {
+      "id": "1",
+      "time": "2026-10-31T12:00:01+08:00",
+      "valid": true,
+      "errors": 45,
+      "bits": 900,
+      "capture_id": "synthetic-1",
+      "reference_id": "synthetic-reference",
+      "train_ranges": [
+        [
+          0,
+          20
+        ]
+      ],
+      "test_ranges": [
+        [
+          20,
+          920
+        ]
+      ],
+      "ber": 0.05
+    },
+    {
+      "id": "2",
+      "time": "2026-10-31T12:00:02+08:00",
+      "valid": false,
+      "errors": null,
+      "bits": null,
+      "ber": null
+    }
+  ]
+}

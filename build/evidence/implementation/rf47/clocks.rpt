@@ -1,0 +1,126 @@
+Copyright 1986-2021 Xilinx, Inc. All Rights Reserved.
+-----------------------------------------------------------------------------------------------------------------------------------
+| Tool Version      : Vivado v.2021.2 (win64) Build 3367213 Tue Oct 19 02:48:09 MDT 2021
+| Date              : Sat Oct 31 13:31:07 2026
+| Host              : WIN-VA5OFB63SNN running 64-bit major release  (build 9200)
+| Command           : report_clocks -file C:/Users/Administrator/Desktop/SMF/.release_work/release_polish_20261031/rf47_clocks.rpt
+| Design            : rf47_qsfp_dpqpsk_top
+| Device            : xczu47dr-ffve1156
+| Speed File        : -2  PRODUCTION 1.32 01-31-2021
+| Temperature Grade : I
+-----------------------------------------------------------------------------------------------------------------------------------
+
+Clock Report
+
+
+Attributes
+  P: Propagated
+  G: Generated
+  A: Auto-derived
+  R: Renamed
+  V: Virtual
+  I: Inverted
+  S: Pin phase-shifted with Latency mode
+
+Clock                                                                                                Period(ns)  Waveform(ns)    Attributes  Sources
+dbg_hub/inst/BSCANID.u_xsdbm_id/SWITCH_N_EXT_BSCAN.bscan_inst/SERIES7_BSCAN.bscan_inst/INTERNAL_TCK  50.000      {0.000 25.000}  P           {dbg_hub/inst/BSCANID.u_xsdbm_id/SWITCH_N_EXT_BSCAN.bscan_inst/SERIES7_BSCAN.bscan_inst/INTERNAL_TCK}
+pl_clk_200                                                                                           5.000       {0.000 2.500}   P           {pl_clk_p}
+qsfp_refclk_156p25                                                                                   6.400       {0.000 3.200}   P           {qsfp_refclk_p}
+GTYE4_CHANNEL_TXOUTCLKPCS[0]                                                                         6.206       {0.000 3.103}   P,G,A       {qsfp_rx_i/rx_core_i/inst/aurora_rx_rf47_core_i/aurora_rx_rf47_wrapper_i/aurora_rx_rf47_multi_gt_i/aurora_rx_rf47_gt_i/inst/gen_gtwizard_gtye4_top.aurora_rx_rf47_gt_gtwizard_gtye4_inst/gen_gtwizard_gtye4.gen_channel_container[1].gen_enabled_channel.gtye4_channel_wrapper_inst/channel_inst/gtye4_channel_gen.gen_gtye4_channel_inst[0].GTYE4_CHANNEL_PRIM_INST/TXOUTCLKPCS}
+GTYE4_CHANNEL_TXOUTCLKPCS[1]                                                                         6.206       {0.000 3.103}   P,G,A       {qsfp_rx_i/rx_core_i/inst/aurora_rx_rf47_core_i/aurora_rx_rf47_wrapper_i/aurora_rx_rf47_multi_gt_i/aurora_rx_rf47_gt_i/inst/gen_gtwizard_gtye4_top.aurora_rx_rf47_gt_gtwizard_gtye4_inst/gen_gtwizard_gtye4.gen_channel_container[1].gen_enabled_channel.gtye4_channel_wrapper_inst/channel_inst/gtye4_channel_gen.gen_gtye4_channel_inst[1].GTYE4_CHANNEL_PRIM_INST/TXOUTCLKPCS}
+GTYE4_CHANNEL_TXOUTCLKPCS[2]                                                                         6.206       {0.000 3.103}   P,G,A       {qsfp_rx_i/rx_core_i/inst/aurora_rx_rf47_core_i/aurora_rx_rf47_wrapper_i/aurora_rx_rf47_multi_gt_i/aurora_rx_rf47_gt_i/inst/gen_gtwizard_gtye4_top.aurora_rx_rf47_gt_gtwizard_gtye4_inst/gen_gtwizard_gtye4.gen_channel_container[1].gen_enabled_channel.gtye4_channel_wrapper_inst/channel_inst/gtye4_channel_gen.gen_gtye4_channel_inst[2].GTYE4_CHANNEL_PRIM_INST/TXOUTCLKPCS}
+GTYE4_CHANNEL_TXOUTCLKPCS[3]                                                                         6.206       {0.000 3.103}   P,G,A       {qsfp_rx_i/rx_core_i/inst/aurora_rx_rf47_core_i/aurora_rx_rf47_wrapper_i/aurora_rx_rf47_multi_gt_i/aurora_rx_rf47_gt_i/inst/gen_gtwizard_gtye4_top.aurora_rx_rf47_gt_gtwizard_gtye4_inst/gen_gtwizard_gtye4.gen_channel_container[1].gen_enabled_channel.gtye4_channel_wrapper_inst/channel_inst/gtye4_channel_gen.gen_gtye4_channel_inst[3].GTYE4_CHANNEL_PRIM_INST/TXOUTCLKPCS}
+clk250_mmcm                                                                                          4.000       {0.000 2.000}   P,G,A       {axis_mmcm_i/CLKOUT1}
+clk500_mmcm                                                                                          2.000       {0.000 1.000}   P,G,A       {axis_mmcm_i/CLKOUT0}
+clkfb_mmcm                                                                                           5.000       {0.000 2.500}   P,G,A       {axis_mmcm_i/CLKFBOUT}
+gt_qpllclk_quad1_out                                                                                 0.194       {0.000 0.097}   P,G,A       {qsfp_rx_i/rx_core_i/inst/ultrascale_gt_common_1/aurora_rx_rf47_gt_gtye4_common_wrapper_i/common_inst/gtye4_common_gen.GTYE4_COMMON_PRIM_INST/QPLL1OUTCLK}
+gt_qpllrefclk_quad1_out                                                                              6.400       {0.000 3.200}   P,G,A       {qsfp_rx_i/rx_core_i/inst/ultrascale_gt_common_1/aurora_rx_rf47_gt_gtye4_common_wrapper_i/common_inst/gtye4_common_gen.GTYE4_COMMON_PRIM_INST/QPLL1OUTREFCLK}
+rxoutclk_out[0]                                                                                      6.206       {0.000 3.103}   P,G,A       {qsfp_rx_i/rx_core_i/inst/aurora_rx_rf47_core_i/aurora_rx_rf47_wrapper_i/aurora_rx_rf47_multi_gt_i/aurora_rx_rf47_gt_i/inst/gen_gtwizard_gtye4_top.aurora_rx_rf47_gt_gtwizard_gtye4_inst/gen_gtwizard_gtye4.gen_channel_container[1].gen_enabled_channel.gtye4_channel_wrapper_inst/channel_inst/gtye4_channel_gen.gen_gtye4_channel_inst[2].GTYE4_CHANNEL_PRIM_INST/RXOUTCLK}
+txoutclk_out[0]                                                                                      6.206       {0.000 3.103}   P,G,A       {qsfp_rx_i/rx_core_i/inst/aurora_rx_rf47_core_i/aurora_rx_rf47_wrapper_i/aurora_rx_rf47_multi_gt_i/aurora_rx_rf47_gt_i/inst/gen_gtwizard_gtye4_top.aurora_rx_rf47_gt_gtwizard_gtye4_inst/gen_gtwizard_gtye4.gen_channel_container[1].gen_enabled_channel.gtye4_channel_wrapper_inst/channel_inst/gtye4_channel_gen.gen_gtye4_channel_inst[2].GTYE4_CHANNEL_PRIM_INST/TXOUTCLK}
+
+
+====================================================
+Generated Clocks
+====================================================
+
+Generated Clock     : GTYE4_CHANNEL_TXOUTCLKPCS[0]
+Master Source       : qsfp_rx_i/rx_core_i/inst/aurora_rx_rf47_core_i/aurora_rx_rf47_wrapper_i/aurora_rx_rf47_multi_gt_i/aurora_rx_rf47_gt_i/inst/gen_gtwizard_gtye4_top.aurora_rx_rf47_gt_gtwizard_gtye4_inst/gen_gtwizard_gtye4.gen_channel_container[1].gen_enabled_channel.gtye4_channel_wrapper_inst/channel_inst/gtye4_channel_gen.gen_gtye4_channel_inst[0].GTYE4_CHANNEL_PRIM_INST/QPLL1CLK
+Master Clock        : gt_qpllclk_quad1_out
+Divide By           : 32
+Generated Sources   : {qsfp_rx_i/rx_core_i/inst/aurora_rx_rf47_core_i/aurora_rx_rf47_wrapper_i/aurora_rx_rf47_multi_gt_i/aurora_rx_rf47_gt_i/inst/gen_gtwizard_gtye4_top.aurora_rx_rf47_gt_gtwizard_gtye4_inst/gen_gtwizard_gtye4.gen_channel_container[1].gen_enabled_channel.gtye4_channel_wrapper_inst/channel_inst/gtye4_channel_gen.gen_gtye4_channel_inst[0].GTYE4_CHANNEL_PRIM_INST/TXOUTCLKPCS}
+
+Generated Clock     : GTYE4_CHANNEL_TXOUTCLKPCS[1]
+Master Source       : qsfp_rx_i/rx_core_i/inst/aurora_rx_rf47_core_i/aurora_rx_rf47_wrapper_i/aurora_rx_rf47_multi_gt_i/aurora_rx_rf47_gt_i/inst/gen_gtwizard_gtye4_top.aurora_rx_rf47_gt_gtwizard_gtye4_inst/gen_gtwizard_gtye4.gen_channel_container[1].gen_enabled_channel.gtye4_channel_wrapper_inst/channel_inst/gtye4_channel_gen.gen_gtye4_channel_inst[1].GTYE4_CHANNEL_PRIM_INST/QPLL1CLK
+Master Clock        : gt_qpllclk_quad1_out
+Divide By           : 32
+Generated Sources   : {qsfp_rx_i/rx_core_i/inst/aurora_rx_rf47_core_i/aurora_rx_rf47_wrapper_i/aurora_rx_rf47_multi_gt_i/aurora_rx_rf47_gt_i/inst/gen_gtwizard_gtye4_top.aurora_rx_rf47_gt_gtwizard_gtye4_inst/gen_gtwizard_gtye4.gen_channel_container[1].gen_enabled_channel.gtye4_channel_wrapper_inst/channel_inst/gtye4_channel_gen.gen_gtye4_channel_inst[1].GTYE4_CHANNEL_PRIM_INST/TXOUTCLKPCS}
+
+Generated Clock     : GTYE4_CHANNEL_TXOUTCLKPCS[2]
+Master Source       : qsfp_rx_i/rx_core_i/inst/aurora_rx_rf47_core_i/aurora_rx_rf47_wrapper_i/aurora_rx_rf47_multi_gt_i/aurora_rx_rf47_gt_i/inst/gen_gtwizard_gtye4_top.aurora_rx_rf47_gt_gtwizard_gtye4_inst/gen_gtwizard_gtye4.gen_channel_container[1].gen_enabled_channel.gtye4_channel_wrapper_inst/channel_inst/gtye4_channel_gen.gen_gtye4_channel_inst[2].GTYE4_CHANNEL_PRIM_INST/QPLL1CLK
+Master Clock        : gt_qpllclk_quad1_out
+Divide By           : 32
+Generated Sources   : {qsfp_rx_i/rx_core_i/inst/aurora_rx_rf47_core_i/aurora_rx_rf47_wrapper_i/aurora_rx_rf47_multi_gt_i/aurora_rx_rf47_gt_i/inst/gen_gtwizard_gtye4_top.aurora_rx_rf47_gt_gtwizard_gtye4_inst/gen_gtwizard_gtye4.gen_channel_container[1].gen_enabled_channel.gtye4_channel_wrapper_inst/channel_inst/gtye4_channel_gen.gen_gtye4_channel_inst[2].GTYE4_CHANNEL_PRIM_INST/TXOUTCLKPCS}
+
+Generated Clock     : GTYE4_CHANNEL_TXOUTCLKPCS[3]
+Master Source       : qsfp_rx_i/rx_core_i/inst/aurora_rx_rf47_core_i/aurora_rx_rf47_wrapper_i/aurora_rx_rf47_multi_gt_i/aurora_rx_rf47_gt_i/inst/gen_gtwizard_gtye4_top.aurora_rx_rf47_gt_gtwizard_gtye4_inst/gen_gtwizard_gtye4.gen_channel_container[1].gen_enabled_channel.gtye4_channel_wrapper_inst/channel_inst/gtye4_channel_gen.gen_gtye4_channel_inst[3].GTYE4_CHANNEL_PRIM_INST/QPLL1CLK
+Master Clock        : gt_qpllclk_quad1_out
+Divide By           : 32
+Generated Sources   : {qsfp_rx_i/rx_core_i/inst/aurora_rx_rf47_core_i/aurora_rx_rf47_wrapper_i/aurora_rx_rf47_multi_gt_i/aurora_rx_rf47_gt_i/inst/gen_gtwizard_gtye4_top.aurora_rx_rf47_gt_gtwizard_gtye4_inst/gen_gtwizard_gtye4.gen_channel_container[1].gen_enabled_channel.gtye4_channel_wrapper_inst/channel_inst/gtye4_channel_gen.gen_gtye4_channel_inst[3].GTYE4_CHANNEL_PRIM_INST/TXOUTCLKPCS}
+
+Generated Clock     : clk250_mmcm
+Master Source       : axis_mmcm_i/CLKIN1
+Master Clock        : pl_clk_200
+Edges               : {1 2 3}
+Edge Shifts(ns)     : {0.000 -0.500 -1.000}
+Generated Sources   : {axis_mmcm_i/CLKOUT1}
+
+Generated Clock     : clk500_mmcm
+Master Source       : axis_mmcm_i/CLKIN1
+Master Clock        : pl_clk_200
+Edges               : {1 2 3}
+Edge Shifts(ns)     : {0.000 -1.500 -3.000}
+Generated Sources   : {axis_mmcm_i/CLKOUT0}
+
+Generated Clock     : clkfb_mmcm
+Master Source       : axis_mmcm_i/CLKIN1
+Master Clock        : pl_clk_200
+Multiply By         : 1
+Generated Sources   : {axis_mmcm_i/CLKFBOUT}
+
+Generated Clock     : gt_qpllclk_quad1_out
+Master Source       : qsfp_rx_i/rx_core_i/inst/ultrascale_gt_common_1/aurora_rx_rf47_gt_gtye4_common_wrapper_i/common_inst/gtye4_common_gen.GTYE4_COMMON_PRIM_INST/GTREFCLK01
+Master Clock        : qsfp_refclk_156p25
+Multiply By         : 33
+Generated Sources   : {qsfp_rx_i/rx_core_i/inst/ultrascale_gt_common_1/aurora_rx_rf47_gt_gtye4_common_wrapper_i/common_inst/gtye4_common_gen.GTYE4_COMMON_PRIM_INST/QPLL1OUTCLK}
+
+Generated Clock     : gt_qpllrefclk_quad1_out
+Master Source       : qsfp_rx_i/rx_core_i/inst/ultrascale_gt_common_1/aurora_rx_rf47_gt_gtye4_common_wrapper_i/common_inst/gtye4_common_gen.GTYE4_COMMON_PRIM_INST/GTREFCLK01
+Master Clock        : qsfp_refclk_156p25
+Multiply By         : 1
+Generated Sources   : {qsfp_rx_i/rx_core_i/inst/ultrascale_gt_common_1/aurora_rx_rf47_gt_gtye4_common_wrapper_i/common_inst/gtye4_common_gen.GTYE4_COMMON_PRIM_INST/QPLL1OUTREFCLK}
+
+Generated Clock     : rxoutclk_out[0]
+Master Source       : qsfp_rx_i/rx_core_i/inst/aurora_rx_rf47_core_i/aurora_rx_rf47_wrapper_i/aurora_rx_rf47_multi_gt_i/aurora_rx_rf47_gt_i/inst/gen_gtwizard_gtye4_top.aurora_rx_rf47_gt_gtwizard_gtye4_inst/gen_gtwizard_gtye4.gen_channel_container[1].gen_enabled_channel.gtye4_channel_wrapper_inst/channel_inst/gtye4_channel_gen.gen_gtye4_channel_inst[2].GTYE4_CHANNEL_PRIM_INST/QPLL1CLK
+Master Clock        : gt_qpllclk_quad1_out
+Divide By           : 32
+Generated Sources   : {qsfp_rx_i/rx_core_i/inst/aurora_rx_rf47_core_i/aurora_rx_rf47_wrapper_i/aurora_rx_rf47_multi_gt_i/aurora_rx_rf47_gt_i/inst/gen_gtwizard_gtye4_top.aurora_rx_rf47_gt_gtwizard_gtye4_inst/gen_gtwizard_gtye4.gen_channel_container[1].gen_enabled_channel.gtye4_channel_wrapper_inst/channel_inst/gtye4_channel_gen.gen_gtye4_channel_inst[2].GTYE4_CHANNEL_PRIM_INST/RXOUTCLK}
+
+Generated Clock     : txoutclk_out[0]
+Master Source       : qsfp_rx_i/rx_core_i/inst/aurora_rx_rf47_core_i/aurora_rx_rf47_wrapper_i/aurora_rx_rf47_multi_gt_i/aurora_rx_rf47_gt_i/inst/gen_gtwizard_gtye4_top.aurora_rx_rf47_gt_gtwizard_gtye4_inst/gen_gtwizard_gtye4.gen_channel_container[1].gen_enabled_channel.gtye4_channel_wrapper_inst/channel_inst/gtye4_channel_gen.gen_gtye4_channel_inst[2].GTYE4_CHANNEL_PRIM_INST/QPLL1CLK
+Master Clock        : gt_qpllclk_quad1_out
+Divide By           : 32
+Generated Sources   : {qsfp_rx_i/rx_core_i/inst/aurora_rx_rf47_core_i/aurora_rx_rf47_wrapper_i/aurora_rx_rf47_multi_gt_i/aurora_rx_rf47_gt_i/inst/gen_gtwizard_gtye4_top.aurora_rx_rf47_gt_gtwizard_gtye4_inst/gen_gtwizard_gtye4.gen_channel_container[1].gen_enabled_channel.gtye4_channel_wrapper_inst/channel_inst/gtye4_channel_gen.gen_gtye4_channel_inst[2].GTYE4_CHANNEL_PRIM_INST/TXOUTCLK}
+
+
+
+====================================================
+User Uncertainty
+====================================================
+
+
+
+====================================================
+User Jitter
+====================================================
+
+

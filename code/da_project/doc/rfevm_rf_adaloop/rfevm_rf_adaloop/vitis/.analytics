@@ -1,0 +1,54 @@
+timestamp=[2023-08-17 13:30:53], mode=WORKBENCH_START, duration=0:00:03.007, duration_ms=3007, data={}
+timestamp=[2023-08-17 13:30:53], mode=WORKBENCH_UI_INIT, duration=0:00:00.174, duration_ms=174, data={editors_count=0, platform_editors_count=0, projects_count=0, platform_projects_count=0, active_platform_editor=false, projects=}
+timestamp=[2023-08-17 13:30:54], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.036, duration_ms=36, data={}
+timestamp=[2023-08-17 13:40:05], mode=WORKBENCH_START, duration=0:00:02.159, duration_ms=2159, data={}
+timestamp=[2023-08-17 13:40:06], mode=WORKBENCH_UI_INIT, duration=0:00:00.226, duration_ms=226, data={editors_count=0, platform_editors_count=0, projects_count=1, platform_projects_count=0, active_platform_editor=false, projects=RemoteSystemsTempFiles}
+timestamp=[2023-08-17 13:40:06], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.016, duration_ms=16, data={}
+timestamp=[2023-08-17 13:40:48], mode=PLATFORM_CREATION, duration=0:00:09.396, duration_ms=9396, data={platform_source=dsa, os=standalone, processor=psu_cortexa53, platform=null}
+timestamp=[2023-08-17 13:47:39], mode=APP_CREATION, duration=0:00:01.486, duration_ms=1486, data={name=rf_ip_test, project_type=sdk, os=standalone, processor=cortex-a53, runtime=C/C++, platform=rfevm_plf, application_type=application}
+timestamp=[2023-08-17 13:50:11], mode=PLATFORM_GENERATION, duration=0:00:08.430, duration_ms=8430, data={name=rfevm_plf}
+timestamp=[2023-08-17 13:50:12], mode=BUILD, duration=0:00:00.215, duration_ms=215, data={name=rf_ip_test, configuration=Debug, clean_build=false}
+timestamp=[2023-08-17 13:54:12], mode=BUILD, duration=0:00:01.293, duration_ms=1293, data={name=rf_ip_test, configuration=Debug, clean_build=false}
+timestamp=[2023-08-17 13:54:32], mode=BUILD, duration=0:00:00.145, duration_ms=145, data={name=rf_ip_test, configuration=Debug, clean_build=true}
+timestamp=[2023-08-17 13:54:33], mode=BUILD, duration=0:00:01.152, duration_ms=1152, data={name=rf_ip_test, configuration=Debug, clean_build=false}
+timestamp=[2023-08-17 14:34:20], mode=PLATFORM_GENERATION, duration=0:00:00.919, duration_ms=919, data={name=rfevm_plf}
+timestamp=[2023-08-17 14:34:42], mode=BUILD, duration=0:00:00.089, duration_ms=89, data={name=rf_ip_test, configuration=Debug, clean_build=false}
+timestamp=[2023-08-17 14:36:13], mode=BUILD, duration=0:00:00.084, duration_ms=84, data={name=rf_ip_test, configuration=Debug, clean_build=true}
+timestamp=[2023-08-17 14:36:15], mode=BUILD, duration=0:00:01.458, duration_ms=1458, data={name=rf_ip_test, configuration=Debug, clean_build=false}
+timestamp=[2023-08-17 14:36:29], mode=BUILD, duration=0:00:00.091, duration_ms=91, data={name=rf_ip_test, configuration=Debug, clean_build=false}
+timestamp=[2023-08-17 14:59:36], mode=BUILD, duration=0:00:00.142, duration_ms=142, data={name=rf_ip_test, configuration=Debug, clean_build=false}
+timestamp=[2023-08-17 14:59:47], mode=BUILD, duration=0:00:00.627, duration_ms=627, data={name=rf_ip_test, configuration=Debug, clean_build=false}
+timestamp=[2023-08-17 15:00:30], mode=BUILD, duration=0:00:00.325, duration_ms=325, data={name=rf_ip_test, configuration=Debug, clean_build=false}
+timestamp=[2023-08-17 15:00:43], mode=BUILD, duration=0:00:00.092, duration_ms=92, data={name=rf_ip_test, configuration=Debug, clean_build=true}
+timestamp=[2023-08-17 15:00:45], mode=BUILD, duration=0:00:01.168, duration_ms=1168, data={name=rf_ip_test, configuration=Debug, clean_build=false}
+timestamp=[2023-08-17 15:12:51], mode=BUILD, duration=0:00:00.091, duration_ms=91, data={name=rf_ip_test, configuration=Debug, clean_build=false}
+timestamp=[2023-08-17 15:12:58], mode=BUILD, duration=0:00:00.087, duration_ms=87, data={name=rf_ip_test, configuration=Debug, clean_build=false}
+timestamp=[2023-08-17 15:24:49], mode=PLATFORM_GENERATION, duration=0:00:04.260, duration_ms=4260, data={name=rfevm_plf}
+timestamp=[2023-08-17 15:25:07], mode=BUILD, duration=0:00:00.086, duration_ms=86, data={name=rf_ip_test, configuration=Debug, clean_build=false}
+timestamp=[2023-08-17 15:44:51], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.011, duration_ms=11, data={}
+timestamp=[2023-08-17 15:44:52], mode=WORKBENCH_START, duration=0:00:03.232, duration_ms=3232, data={}
+timestamp=[2023-08-17 15:44:52], mode=WORKBENCH_UI_INIT, duration=0:00:00.415, duration_ms=415, data={editors_count=8, platform_editors_count=3, projects_count=4, platform_projects_count=1, active_platform_editor=false, projects=RemoteSystemsTempFiles,rf_ip_test,rf_ip_test_system,rfevm_plf}
+timestamp=[2023-08-18 12:32:03], mode=PLATFORM_GENERATION, duration=0:00:03.365, duration_ms=3365, data={name=rfevm_plf}
+timestamp=[2023-08-18 12:32:05], mode=BUILD, duration=0:00:01.333, duration_ms=1333, data={name=rf_ip_test, configuration=Debug, clean_build=false}
+timestamp=[2023-08-22 17:37:25], mode=WORKBENCH_START, duration=0:00:04.191, duration_ms=4191, data={}
+timestamp=[2023-08-22 17:37:26], mode=WORKBENCH_UI_INIT, duration=0:00:00.422, duration_ms=422, data={editors_count=10, platform_editors_count=4, projects_count=4, platform_projects_count=1, active_platform_editor=false, projects=RemoteSystemsTempFiles,rf_ip_test,rf_ip_test_system,rfevm_plf}
+timestamp=[2023-08-22 17:37:37], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.068, duration_ms=68, data={}
+timestamp=[2023-08-23 13:47:15], mode=WORKBENCH_START, duration=0:00:04.008, duration_ms=4008, data={}
+timestamp=[2023-08-23 13:47:15], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.079, duration_ms=79, data={}
+timestamp=[2023-08-23 13:47:15], mode=WORKBENCH_UI_INIT, duration=0:00:00.486, duration_ms=486, data={editors_count=11, platform_editors_count=4, projects_count=4, platform_projects_count=1, active_platform_editor=false, projects=RemoteSystemsTempFiles,rf_ip_test,rf_ip_test_system,rfevm_plf}
+timestamp=[2023-08-23 13:47:44], mode=BUILD, duration=0:00:01.481, duration_ms=1481, data={name=rf_ip_test, configuration=Debug, clean_build=false}
+timestamp=[2023-08-23 23:20:10], mode=WORKBENCH_START, duration=0:00:04.142, duration_ms=4142, data={}
+timestamp=[2023-08-23 23:20:10], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.069, duration_ms=69, data={}
+timestamp=[2023-08-23 23:20:10], mode=WORKBENCH_UI_INIT, duration=0:00:00.516, duration_ms=516, data={editors_count=11, platform_editors_count=4, projects_count=4, platform_projects_count=1, active_platform_editor=false, projects=RemoteSystemsTempFiles,rf_ip_test,rf_ip_test_system,rfevm_plf}
+timestamp=[2023-08-23 23:21:13], mode=BUILD, duration=0:00:01.490, duration_ms=1490, data={name=rf_ip_test, configuration=Debug, clean_build=false}
+timestamp=[2023-09-01 10:14:04], mode=WORKBENCH_START, duration=0:00:06.970, duration_ms=6970, data={}
+timestamp=[2023-09-01 10:14:05], mode=WORKBENCH_UI_INIT, duration=0:00:00.440, duration_ms=440, data={editors_count=11, platform_editors_count=4, projects_count=4, platform_projects_count=1, active_platform_editor=false, projects=RemoteSystemsTempFiles,rf_ip_test,rf_ip_test_system,rfevm_plf}
+timestamp=[2023-09-01 10:14:05], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.070, duration_ms=70, data={}
+timestamp=[2023-09-01 10:32:08], mode=BUILD, duration=0:00:01.855, duration_ms=1855, data={name=rf_ip_test, configuration=Debug, clean_build=false}
+timestamp=[2023-09-06 21:47:17], mode=WORKBENCH_START, duration=0:00:06.775, duration_ms=6775, data={}
+timestamp=[2023-09-06 21:47:17], mode=WORKBENCH_UI_INIT, duration=0:00:00.340, duration_ms=340, data={editors_count=11, platform_editors_count=4, projects_count=4, platform_projects_count=1, active_platform_editor=false, projects=RemoteSystemsTempFiles,rf_ip_test,rf_ip_test_system,rfevm_plf}
+timestamp=[2023-09-06 21:47:17], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.052, duration_ms=52, data={}
+timestamp=[2023-09-06 22:03:26], mode=BUILD, duration=0:00:01.750, duration_ms=1750, data={name=rf_ip_test, configuration=Debug, clean_build=false}
+timestamp=[2023-09-06 22:34:04], mode=PLATFORM_GENERATION, duration=0:00:08.454, duration_ms=8454, data={name=rfevm_plf}
+timestamp=[2023-09-06 22:35:00], mode=PLATFORM_GENERATION, duration=0:00:07.910, duration_ms=7910, data={name=rfevm_plf}
+timestamp=[2023-09-06 22:35:33], mode=BUILD, duration=0:00:00.691, duration_ms=691, data={name=rf_ip_test, configuration=Debug, clean_build=false}

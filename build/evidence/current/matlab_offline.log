@@ -1,0 +1,19 @@
+ 
+要开始，请键入以下项之一: helpwin、helpdesk 或 demo。
+有关产品信息，请访问 www.mathworks.com。
+ 
+Continuous CDR lane 1/4: 49156 symbols recovered.
+Continuous CDR lane 2/4: 49156 symbols recovered.
+Continuous CDR lane 3/4: 49156 symbols recovered.
+Continuous CDR lane 4/4: 49156 symbols recovered.
+Continuous resampler equivalence: PASS (49156 symbols, 0 differing decisions)
+Self-test timing phases 0.000000, 0.000000, 0.000000, 0.000000, phase sync hits 48
+Lane 1 pre-pack BER 0.000e+00, shift 5, invert 0
+Lane 2 pre-pack BER 0.000e+00, shift 5, invert 0
+Lane 3 pre-pack BER 0.000e+00, shift 5, invert 0
+Lane 4 pre-pack BER 0.000e+00, shift 5, invert 0
+selftest_rf47_pipeline: PASS (47 CRC-good frames, 24575 bytes)
+known-frame self-test diagnostics: bad=2 full=2 bits=49152 errors=3 frame3=2 frame9=1 packets=2
+selftest_known_frame_analysis: PASS (3 exact bit errors)
+selftest_dynamic_frame_relock: PASS (20/20 CRC-good across a 32-byte slip).
+PUBLIC RELEASE OFFLINE TESTS PASS. No scope/JTAG calls.

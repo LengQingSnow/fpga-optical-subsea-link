@@ -1,0 +1,2 @@
+# Python >= 3.10; dataset/packaging tools use the standard library.
+# Optional research scripts may require additional packages.

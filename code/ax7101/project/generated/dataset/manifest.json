@@ -1,0 +1,340 @@
+{
+  "format": "AX7101_DUAL_DATASET_DDR_V1",
+  "descriptor": {
+    "ddr_address": "00000000",
+    "length": 256
+  },
+  "image_region": {
+    "ddr_address": "00100000",
+    "length": 10368000,
+    "image_count": 45,
+    "image_width": 320,
+    "image_height": 240,
+    "pixel_format": "RGB888"
+  },
+  "images": [
+    {
+      "id": 1,
+      "source": "1_raw.mem",
+      "ddr_address": "00100000",
+      "length": 230400,
+      "crc32": "C80BBAF1"
+    },
+    {
+      "id": 2,
+      "source": "2_raw.mem",
+      "ddr_address": "00138400",
+      "length": 230400,
+      "crc32": "8F8B00DD"
+    },
+    {
+      "id": 3,
+      "source": "3_raw.mem",
+      "ddr_address": "00170800",
+      "length": 230400,
+      "crc32": "4EBC88D0"
+    },
+    {
+      "id": 4,
+      "source": "4_raw.mem",
+      "ddr_address": "001A8C00",
+      "length": 230400,
+      "crc32": "923E14B6"
+    },
+    {
+      "id": 5,
+      "source": "5_raw.mem",
+      "ddr_address": "001E1000",
+      "length": 230400,
+      "crc32": "5D0495AE"
+    },
+    {
+      "id": 6,
+      "source": "6_raw.mem",
+      "ddr_address": "00219400",
+      "length": 230400,
+      "crc32": "EF885FC6"
+    },
+    {
+      "id": 7,
+      "source": "7_raw.mem",
+      "ddr_address": "00251800",
+      "length": 230400,
+      "crc32": "9ACB915F"
+    },
+    {
+      "id": 8,
+      "source": "8_raw.mem",
+      "ddr_address": "00289C00",
+      "length": 230400,
+      "crc32": "01A9895D"
+    },
+    {
+      "id": 9,
+      "source": "9_raw.mem",
+      "ddr_address": "002C2000",
+      "length": 230400,
+      "crc32": "AA58DC46"
+    },
+    {
+      "id": 10,
+      "source": "10_raw.mem",
+      "ddr_address": "002FA400",
+      "length": 230400,
+      "crc32": "9CA13F8F"
+    },
+    {
+      "id": 11,
+      "source": "11_raw.mem",
+      "ddr_address": "00332800",
+      "length": 230400,
+      "crc32": "F7F079E3"
+    },
+    {
+      "id": 12,
+      "source": "12_raw.mem",
+      "ddr_address": "0036AC00",
+      "length": 230400,
+      "crc32": "C9378D20"
+    },
+    {
+      "id": 13,
+      "source": "13_raw.mem",
+      "ddr_address": "003A3000",
+      "length": 230400,
+      "crc32": "E942CB74"
+    },
+    {
+      "id": 14,
+      "source": "14_raw.mem",
+      "ddr_address": "003DB400",
+      "length": 230400,
+      "crc32": "B6D031C3"
+    },
+    {
+      "id": 15,
+      "source": "15_raw.mem",
+      "ddr_address": "00413800",
+      "length": 230400,
+      "crc32": "41FB9933"
+    },
+    {
+      "id": 16,
+      "source": "16_raw.mem",
+      "ddr_address": "0044BC00",
+      "length": 230400,
+      "crc32": "F44C06C8"
+    },
+    {
+      "id": 17,
+      "source": "17_raw.mem",
+      "ddr_address": "00484000",
+      "length": 230400,
+      "crc32": "79BD912F"
+    },
+    {
+      "id": 18,
+      "source": "18_raw.mem",
+      "ddr_address": "004BC400",
+      "length": 230400,
+      "crc32": "0121A171"
+    },
+    {
+      "id": 19,
+      "source": "19_raw.mem",
+      "ddr_address": "004F4800",
+      "length": 230400,
+      "crc32": "D1454701"
+    },
+    {
+      "id": 20,
+      "source": "20_raw.mem",
+      "ddr_address": "0052CC00",
+      "length": 230400,
+      "crc32": "8D47E081"
+    },
+    {
+      "id": 21,
+      "source": "21_raw.mem",
+      "ddr_address": "00565000",
+      "length": 230400,
+      "crc32": "B8094114"
+    },
+    {
+      "id": 22,
+      "source": "22_raw.mem",
+      "ddr_address": "0059D400",
+      "length": 230400,
+      "crc32": "C4E2F423"
+    },
+    {
+      "id": 23,
+      "source": "23_raw.mem",
+      "ddr_address": "005D5800",
+      "length": 230400,
+      "crc32": "4F610987"
+    },
+    {
+      "id": 24,
+      "source": "24_raw.mem",
+      "ddr_address": "0060DC00",
+      "length": 230400,
+      "crc32": "D075C747"
+    },
+    {
+      "id": 25,
+      "source": "25_raw.mem",
+      "ddr_address": "00646000",
+      "length": 230400,
+      "crc32": "5CE11810"
+    },
+    {
+      "id": 26,
+      "source": "26_raw.mem",
+      "ddr_address": "0067E400",
+      "length": 230400,
+      "crc32": "05ABA0DF"
+    },
+    {
+      "id": 27,
+      "source": "27_raw.mem",
+      "ddr_address": "006B6800",
+      "length": 230400,
+      "crc32": "0853E512"
+    },
+    {
+      "id": 28,
+      "source": "28_raw.mem",
+      "ddr_address": "006EEC00",
+      "length": 230400,
+      "crc32": "A3F3460A"
+    },
+    {
+      "id": 29,
+      "source": "29_raw.mem",
+      "ddr_address": "00727000",
+      "length": 230400,
+      "crc32": "7E1048B0"
+    },
+    {
+      "id": 30,
+      "source": "30_raw.mem",
+      "ddr_address": "0075F400",
+      "length": 230400,
+      "crc32": "32A60B3D"
+    },
+    {
+      "id": 31,
+      "source": "31_raw.mem",
+      "ddr_address": "00797800",
+      "length": 230400,
+      "crc32": "67D3A729"
+    },
+    {
+      "id": 32,
+      "source": "32_raw.mem",
+      "ddr_address": "007CFC00",
+      "length": 230400,
+      "crc32": "7721E5AE"
+    },
+    {
+      "id": 33,
+      "source": "33_raw.mem",
+      "ddr_address": "00808000",
+      "length": 230400,
+      "crc32": "14E14B93"
+    },
+    {
+      "id": 34,
+      "source": "34_raw.mem",
+      "ddr_address": "00840400",
+      "length": 230400,
+      "crc32": "385DCD6C"
+    },
+    {
+      "id": 35,
+      "source": "35_raw.mem",
+      "ddr_address": "00878800",
+      "length": 230400,
+      "crc32": "412D5298"
+    },
+    {
+      "id": 36,
+      "source": "36_raw.mem",
+      "ddr_address": "008B0C00",
+      "length": 230400,
+      "crc32": "58032E49"
+    },
+    {
+      "id": 37,
+      "source": "37_raw.mem",
+      "ddr_address": "008E9000",
+      "length": 230400,
+      "crc32": "92B71487"
+    },
+    {
+      "id": 38,
+      "source": "38_raw.mem",
+      "ddr_address": "00921400",
+      "length": 230400,
+      "crc32": "E6679E05"
+    },
+    {
+      "id": 39,
+      "source": "39_raw.mem",
+      "ddr_address": "00959800",
+      "length": 230400,
+      "crc32": "6D3AECCD"
+    },
+    {
+      "id": 40,
+      "source": "40_raw.mem",
+      "ddr_address": "00991C00",
+      "length": 230400,
+      "crc32": "7955918F"
+    },
+    {
+      "id": 41,
+      "source": "41_raw.mem",
+      "ddr_address": "009CA000",
+      "length": 230400,
+      "crc32": "70835E5A"
+    },
+    {
+      "id": 42,
+      "source": "42_raw.mem",
+      "ddr_address": "00A02400",
+      "length": 230400,
+      "crc32": "6389F187"
+    },
+    {
+      "id": 43,
+      "source": "43_raw.mem",
+      "ddr_address": "00A3A800",
+      "length": 230400,
+      "crc32": "68993D6D"
+    },
+    {
+      "id": 44,
+      "source": "44_raw.mem",
+      "ddr_address": "00A72C00",
+      "length": 230400,
+      "crc32": "98A77B5B"
+    },
+    {
+      "id": 45,
+      "source": "45_raw.mem",
+      "ddr_address": "00AAB000",
+      "length": 230400,
+      "crc32": "0C79EE71"
+    }
+  ],
+  "waveform": {
+    "source": "waveform_bhz_int16.mem",
+    "ddr_address": "02000000",
+    "length": 28800,
+    "samples": 14400,
+    "sample_format": "signed_int16_big_endian",
+    "crc32": "147981FF"
+  }
+}

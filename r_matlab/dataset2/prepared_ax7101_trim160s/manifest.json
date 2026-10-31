@@ -1,0 +1,101 @@
+{
+  "format": "AX7101_DUAL_DATASET_DDR_V2",
+  "prepared_for_future_ddr_load": false,
+  "current_ax7101_bitstream_compatible": true,
+  "compatibility_reason": "Matches published 3x160x120 RGB888 / 11200 int16 sample layout; hardware was not programmed during packaging.",
+  "descriptor": {
+    "ddr_address": "00000000",
+    "length": 256,
+    "ready_flags": 3
+  },
+  "image_region": {
+    "ddr_address": "00100000",
+    "length": 172800,
+    "image_count": 3,
+    "image_width": 160,
+    "image_height": 120,
+    "bytes_per_image": 57600,
+    "pixel_format": "RGB888",
+    "byte_order": "row-major RGB",
+    "sha256": "1B844707ABDF42B5F1FFC10E17B8C7425F1A78C5AC55907E4E22D97C0E986F6B"
+  },
+  "images": [
+    {
+      "id": 1,
+      "source": "images_mem_rgb888/1_raw.mem",
+      "source_sha256": "C193A30A21F5F317D040B262685BCC49D8FFC0D9FEFDD3B2D2A2FD0EFAF7030F",
+      "source_size": [
+        160,
+        120
+      ],
+      "ddr_address": "00100000",
+      "length": 57600,
+      "crc32": "6D02451B",
+      "mem_file": "images_mem_rgb888/1_raw.mem",
+      "source_format": "RGB888 MEM (published reference)"
+    },
+    {
+      "id": 2,
+      "source": "images_mem_rgb888/2_raw.mem",
+      "source_sha256": "116B4435779CD92ADB14D7916DA987288C3EB0186B6168342FF13BF9B09DFB89",
+      "source_size": [
+        160,
+        120
+      ],
+      "ddr_address": "0010E100",
+      "length": 57600,
+      "crc32": "7F6BD75F",
+      "mem_file": "images_mem_rgb888/2_raw.mem",
+      "source_format": "RGB888 MEM (published reference)"
+    },
+    {
+      "id": 3,
+      "source": "images_mem_rgb888/3_raw.mem",
+      "source_sha256": "E3A211DF0F3D8E07472333B28A1BE41CEC4AB79B8416A2945B9C5E7D3B23C852",
+      "source_size": [
+        160,
+        120
+      ],
+      "ddr_address": "0011C200",
+      "length": 57600,
+      "crc32": "B2C2A6CA",
+      "mem_file": "images_mem_rgb888/3_raw.mem",
+      "source_format": "RGB888 MEM (published reference)"
+    }
+  ],
+  "waveform": {
+    "source": "waveform_bhz_int16.mem",
+    "source_sha256": "D2E6B037E838F29D9F16618E410D888BFB091A9EA58E024AF0C8FA98EDFADAC1",
+    "ddr_address": "02000000",
+    "length": 22400,
+    "samples": 11200,
+    "sample_format": "signed_int16_big_endian",
+    "crc32": "48221483",
+    "sha256": "082E018D7D495190EB23E5C276E5D875B8E63EA6A3ED3BFD5A43B12C92AB3C8D",
+    "unchanged_from_dataset2": false,
+    "start_time_seconds": 160,
+    "end_time_seconds": 719.95,
+    "sample_rate_hz": 20,
+    "original_samples": 14400,
+    "original_start_time_seconds": 0,
+    "trim_reason": "Remove quiet prefix; retain 160 s pre-event context"
+  },
+  "files": {
+    "descriptor_not_ready.bin": {
+      "bytes": 256,
+      "sha256": "3563B8EC874F912953082936C2FF9356B763693B31AF83BAA5AC11C646580220"
+    },
+    "descriptor_ready.bin": {
+      "bytes": 256,
+      "sha256": "17964681ABC3C9CA297AE8622802DE875C4F04203BED6ADF679FF8C94AB3D0E8"
+    },
+    "images_rgb888.bin": {
+      "bytes": 172800,
+      "sha256": "1B844707ABDF42B5F1FFC10E17B8C7425F1A78C5AC55907E4E22D97C0E986F6B"
+    },
+    "waveform_bhz_int16.bin": {
+      "bytes": 22400,
+      "sha256": "082E018D7D495190EB23E5C276E5D875B8E63EA6A3ED3BFD5A43B12C92AB3C8D"
+    }
+  }
+}

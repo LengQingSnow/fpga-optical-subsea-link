@@ -1,0 +1,26 @@
+DATE 2026-10-31T11:12:28.4867789+08:00
+OFFLINE ONLY: no JTAG, scope, bitstream programming or optical BER measurement.
+GIT_FILES=1797 SIZE_MIB=493.29
+PASS: dataset MEM/BIN/CRC/hash, copies, 26 legacy DSP publication hashes (path/entry-only migration), firmware, build inputs, offline DDR plan (196 ops).
+THIS CHECK IS OFFLINE. MATLAB/RTL results are recorded separately in build/evidence; no synthesis or live scope/JTAG/BER in this pass.
+ALIGNMENT_SOURCE_TEST_PASS: fragmented SCPI, malformed blocks, 100/125/180 MHz, fractional delays, polarity and DC rejection; no hardware.
+[2026-10-31 11:12:29.307] SELF-TEST PASS: arithmetic and signal checks; no hardware or MATLAB started.
+ALIGNMENT_SOURCE_TEST_PASS: fragmented SCPI, malformed blocks, 100/125/180 MHz, fractional delays, polarity and DC rejection; no hardware.
+[2026-10-31 11:12:29.590] SELF-TEST PASS: arithmetic and signal checks; no hardware or MATLAB started.
+ALIGNMENT_SOURCE_TEST_PASS: fragmented SCPI, malformed blocks, 100/125/180 MHz, fractional delays, polarity and DC rejection; no hardware.
+[2026-10-31 11:12:29.894] CHECK PASS: dependencies and source-based arithmetic; no hardware or MATLAB started.
+ALIGNMENT_SOURCE_TEST_PASS: fragmented SCPI, malformed blocks, 100/125/180 MHz, fractional delays, polarity and DC rejection; no hardware.
+[2026-10-31 11:12:30.048] CHECK PASS: dependencies and source-based arithmetic; no hardware or MATLAB started.
+GUI dependency OK: C:\Users\Administrator\Desktop\SMF\r_matlab\matlab\smf_open_gui.m; no process started
+KU115 files OK; no hardware connection: C:\Users\Administrator\Desktop\SMF\code\ku115_txonly_fifo_fix\bit_archive\sender_ku115_qsfp1tx_txonly_4gbaud_16g_packet_backpressure_fix.bit
+Mode available: check-long; no hardware connection
+RF47 BIT/ELF/init OK; no hardware connection
+BER_AUDIT_SELF_TEST_PASS: weighted denominator, invalid retention, 10 rejected faults; synthetic only
+coherent-ber-audit
+Skill is valid!
+fpga-stream-integrity
+Skill is valid!
+scope-capture-diagnosis
+Skill is valid!
+POWERSHELL_PARSE_PASS=39
+PACKAGE_CHECKS_PASS

@@ -1,0 +1,10 @@
+{
+  "evaluation_unit": "720-second waveform window",
+  "event_window_predicted_event": true,
+  "quiet_window_predicted_event": true,
+  "TP": 1,
+  "FN": 0,
+  "FP": 1,
+  "TN": 0,
+  "limitation": "Only one positive and one negative demonstration window; not sufficient to claim generalization or earthquake forecasting."
+}

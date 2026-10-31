@@ -1,0 +1,113 @@
+# Local work and machine configuration
+/.release_work/
+/.build/
+/config/tools.local.json
+/.vs/
+__pycache__/
+*.pyc
+# Regenerable Vivado/Vitis products; source .srcs, XCI, BD, constraints stay.
+.Xil/
+*.runs/
+*.cache/
+*.gen/
+*.sim/
+*.hw/
+*.ip_user_files/
+generated_ip/
+**/vitis/workspace*/
+**/vitis/debug_workspace/
+*.dcp
+*.wdb
+*.rpx
+*.pdom
+*.o
+*.obj
+*.a
+*.jou
+*.log
+*.str
+*.vds
+*.pb
+*.rpt
+# Firmware belongs to a versioned release bundle. Selected files are exceptions below.
+*.bit
+*.elf
+*.bin
+*.xsa
+*.hdf
+*.mcs
+*.prm
+*.exe
+*.dll
+*.ltx
+*.xpr
+# Dataset payloads ARE source dependencies, not firmware output.
+!code/ax7101/dataset/**/*.bin
+!r_matlab/dataset2/**/*.bin
+!code/ax7101/project/generated/dataset/**/*.bin
+# Selected validated firmware / debug probes, retained at the paths used by tools.
+!code/ax7101/project/bitstream/ax7101_dual_dataset_udp_trim160s_optimized.bit
+!code/ax7101/project/bitstream/ax7101_dual_dataset_udp_trim160s_optimized.ltx
+!code/ax7101/project/bitstream/ax7101_dual_dataset_udp.bit
+!code/ax7101/project/bitstream/ax7101_dual_dataset_udp.ltx
+!code/ku115_txonly_fifo_fix/bit_archive/sender_ku115_qsfp1tx_txonly_4gbaud_16g_packet_backpressure_fix.bit
+!code/da_project/porject/vivado/output/rf47_qsfp_dpqpsk_nrz_8gsps_runtime_cal.bit
+!code/da_project/porject/vivado/output/rf47_qsfp_dpqpsk_nrz_8gsps_runtime_cal.xsa
+!code/da_project/porject/vitis/output/rf47_init.elf
+!code/da_project/porject/rf47_persistent_long_prbs_20260922/rf47_long_prbs.bit
+!code/da_project/porject/rf47_persistent_long_prbs_20260922/rf47_init_long_prbs.elf
+!code/da_project/porject/rf47_persistent_long_prbs_20260922/fsbl_a53.elf
+!code/da_project/porject/rf47_persistent_long_prbs_20260922/fsbl_flash_helper.elf
+!code/da_project/porject/rf47_persistent_long_prbs_20260922/pmufw.elf
+!code/da_project/porject/rf47_persistent_long_prbs_20260922/boot_rf47_long_prbs_20260922.bin
+# Runtime measurement data / histories are not published as default references.
+/r_matlab/data/*
+!/r_matlab/data/README.md
+/r_matlab/data2/*
+!/r_matlab/data2/README.md
+/r_matlab/ref/
+/r_matlab/tests_*/
+/scripts/logs/
+/scripts/outputs/
+# Temporary exploration code is retained locally, excluded from public entry points.
+/r_matlab/matlab/tmp_*.m
+/r_matlab/matlab/query_scope_depth_tmp.m
+/r_matlab/matlab/*.before_*.m
+
+**/rfevm_plf/
+**/CMakeFiles/
+**/workspace*/
+**/debug_workspace/
+**/ip/**/sim/
+**/ip/**/synth/
+**/ip/**/hdl/
+!code/ku115_txonly_fifo_fix/bit_archive/sender_ku115_qsfp1tx_txonly_4gbaud_16g_packet_backpressure_fix.ltx
+
+# Additional generated outputs and local experiment reports.
+**/_ide/
+*_sim_netlist.v
+*_sim_netlist.vhdl
+/code/ax7101/project/ip/[0-9a-f]/
+**/ipshared/
+**/reports/
+/code/da_project/porject/vivado/output/archive/
+/code/ax7101/project/generated/camera*/
+
+# Never publish local credentials or tool licenses.
+*.lic
+*.pem
+*.key
+.env
+.env.*
+
+# Local legacy binaries, simulator caches and supplied competition guide.
+/scripts/old/
+**/xsim.dir/
+/*.pdf
+# Curated historical evidence and this packaging pass test logs.
+!/build/evidence/**/*.rpt
+!/build/evidence/**/*.log
+
+# Eclipse/Vitis local histories are caches, not source inputs.
+**/.metadata/
+**/.recommenders/

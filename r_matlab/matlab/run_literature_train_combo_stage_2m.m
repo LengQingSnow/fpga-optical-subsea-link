@@ -1,0 +1,64 @@
+%RUN_LITERATURE_TRAIN_COMBO_STAGE_2M Search FSE training length.
+set(0, 'DefaultFigureVisible', 'off');
+matlab_dir = smf_project_path('r_matlab','matlab');
+data_dir = smf_project_path('r_matlab','data2');
+addpath(matlab_dir);
+reference = load(fullfile(data_dir, ...
+    'rf47_reference_for_330km_capture.mat'));
+reference = reference.reference;
+dbp = load(fullfile(data_dir, 'literature_stage1_dbp_2m.mat'));
+dbp = dbp.dbp;
+stage1 = load(fullfile(data_dir, 'literature_stage1_2m_result.mat'));
+probes = stage1.probes;
+timing = load(fullfile(data_dir, ...
+    'literature_timing_stage_2m_result.mat'));
+[~, best_index] = min(timing.ber, [], 2);
+offsets = timing.summary.offsets(best_index);
+train_lengths = [256, 512, 768, 1024, 1536, 2048, 3072];
+block_points = 250000;
+block_count = floor(dbp.pointCount / block_points);
+ber = nan(block_count, numel(train_lengths));
+lane = nan(block_count, numel(train_lengths), 4);
+evm = nan(block_count, numel(train_lengths), 2);
+file_id = fopen(fullfile(data_dir, 'literature_train_combo_stage_2m.log'), 'w');
+if file_id < 0
+    error('run_literature_train_combo_stage_2m:Log', 'Cannot open log.');
+end
+cleanup = onCleanup(@() fclose(file_id));
+for block = 1:block_count
+    first = (block - 1) * block_points + 1;
+    last = block * block_points;
+    local = dbp;
+    local.channels = dbp.channels(first:last, :);
+    local.pointCount = block_points;
+    for index = 1:numel(train_lengths)
+        fse = offline_reference_wl_fse(local, reference, probes{block}, ...
+            struct('symbolRateHz', 4e9, 'tapCount', 7, ...
+            'trainSymbols', train_lengths(index), 'outputSymbols', 8, ...
+            'ridge', 1e-2, 'causal', false, ...
+            'fractionalSampleOffset', offsets(block)));
+        bps = offline_joint_qpsk_bps(fse, ...
+            struct('blockSymbols', 64, 'phaseCount', 321, ...
+            'jointPolarizations', true));
+        ber(block, index) = bps.ber;
+        lane(block, index, :) = bps.berByLane;
+        evm(block, index, :) = bps.evmRms;
+        fprintf(file_id, 'BLOCK=%d TRAIN=%d BER=%g L=%s E=%s\n', ...
+            block, train_lengths(index), bps.ber, mat2str(bps.berByLane), ...
+            mat2str(bps.evmRms));
+    end
+end
+[best_ber, best_index] = min(mean(ber, 1));
+summary = struct();
+summary.trainLengths = train_lengths;
+summary.ber = mean(ber, 1);
+summary.berByLane = squeeze(mean(lane, 1));
+summary.evm = squeeze(mean(evm, 1));
+summary.bestTrainLength = train_lengths(best_index);
+summary.bestBer = best_ber;
+fprintf(file_id, 'SUMMARY BEST_TRAIN=%d BEST_BER=%g\n', ...
+    summary.bestTrainLength, summary.bestBer);
+save(fullfile(data_dir, 'literature_train_combo_stage_2m_result.mat'), ...
+    'summary', 'ber', 'lane', 'evm', '-v7');
+clear cleanup;
+exit;

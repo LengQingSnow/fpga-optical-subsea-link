@@ -1,0 +1,7 @@
+the_ROM_image:
+{
+ [bootloader, destination_cpu=a53-0] fsbl_a53.elf
+ [pmufw_image] pmufw.elf
+ [destination_device=pl] rf47_long_prbs.bit
+ [destination_cpu=a53-0, exception_level=el-3] rf47_init_long_prbs.elf
+}

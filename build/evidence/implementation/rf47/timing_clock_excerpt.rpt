@@ -1,0 +1,24 @@
+Selected numeric excerpt from archived implementation report.
+Scope: timing metrics and clock table only; this is not the full implementation sign-off report.
+Source SHA256: 6179235f9c265c71e9f09503795234a70acf3ff25d8da7eeb1ea5c062e12bdf5
+
+    WNS(ns)      TNS(ns)  TNS Failing Endpoints  TNS Total Endpoints      WHS(ns)      THS(ns)  THS Failing Endpoints  THS Total Endpoints     WPWS(ns)     TPWS(ns)  TPWS Failing Endpoints  TPWS Total Endpoints  
+    -------      -------  ---------------------  -------------------      -------      -------  ---------------------  -------------------     --------     --------  ----------------------  --------------------  
+      0.033        0.000                      0               299329        0.010        0.000                      0               299283        0.360        0.000                       0                 55108  
+
+Clock                                                                                                Waveform(ns)           Period(ns)      Frequency(MHz)
+-----                                                                                                ------------           ----------      --------------
+dbg_hub/inst/BSCANID.u_xsdbm_id/SWITCH_N_EXT_BSCAN.bscan_inst/SERIES7_BSCAN.bscan_inst/INTERNAL_TCK  {0.000 25.000}         50.000          20.000          
+pl_clk_200                                                                                           {0.000 2.500}          5.000           200.000         
+  clk250_mmcm                                                                                        {0.000 2.000}          4.000           250.000         
+  clk500_mmcm                                                                                        {0.000 1.000}          2.000           500.000         
+  clkfb_mmcm                                                                                         {0.000 2.500}          5.000           200.000         
+qsfp_refclk_156p25                                                                                   {0.000 3.200}          6.400           156.250         
+  gt_qpllclk_quad1_out                                                                               {0.000 0.097}          0.194           5156.250        
+    GTYE4_CHANNEL_TXOUTCLKPCS[0]                                                                     {0.000 3.103}          6.206           161.133         
+    GTYE4_CHANNEL_TXOUTCLKPCS[1]                                                                     {0.000 3.103}          6.206           161.133         
+    GTYE4_CHANNEL_TXOUTCLKPCS[2]                                                                     {0.000 3.103}          6.206           161.133         
+    GTYE4_CHANNEL_TXOUTCLKPCS[3]                                                                     {0.000 3.103}          6.206           161.133         
+    rxoutclk_out[0]                                                                                  {0.000 3.103}          6.206           161.133         
+    txoutclk_out[0]                                                                                  {0.000 3.103}          6.206           161.133         
+  gt_qpllrefclk_quad1_out                                                                            {0.000 3.200}          6.400           156.250         

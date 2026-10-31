@@ -1,0 +1,7 @@
+the_ROM_image:
+{
+  [bootloader, destination_cpu=a53-0] ../workspace/rf47_platform/zynqmp_fsbl/fsbl_a53.elf
+  [pmufw_image] ../workspace/rf47_platform/zynqmp_pmufw/pmufw.elf
+  [destination_device=pl] ../../vivado/output/rf47_qsfp_dpqpsk_nrz_8gsps_runtime_cal.bit
+  [destination_cpu=a53-0, exception_level=el-3] ../output/rf47_init.elf
+}

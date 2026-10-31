@@ -1,0 +1,24 @@
+{
+  "event": "2011 Great Tohoku Earthquake",
+  "usgs_event_id": "official20110311054624120_30",
+  "origin_utc": "2011-03-11T05:46:24.120000Z",
+  "magnitude_mww": 9.1,
+  "event_lat_lon_depth_km": [
+    38.297,
+    142.373,
+    29.0
+  ],
+  "station": "IU.MAJO.00.BHZ",
+  "station_lat_lon_elev_m": [
+    36.54567,
+    138.20406,
+    405
+  ],
+  "trace_start_utc": "2011-03-11T05:44:24.019538Z",
+  "sample_rate_hz": 20.0,
+  "samples": 14400,
+  "ak135_expected_P_seconds_from_start": 175.90614,
+  "detected_seconds_from_start": 186.2,
+  "detection_error_seconds": 10.293859999999995,
+  "warning": "This is waveform event detection, not advance earthquake prediction."
+}

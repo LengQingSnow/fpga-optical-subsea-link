@@ -1,0 +1,9 @@
+{
+  "name": "SMF",
+  "release": "legacy-public-snapshot",
+  "symbol_rate_baud": 4000000000,
+  "modulation": "DP-QPSK",
+  "matlab": "r_matlab/matlab",
+  "dataset": "r_matlab/dataset2/prepared_ax7101_trim160s",
+  "newer_dsp_included": false
+}

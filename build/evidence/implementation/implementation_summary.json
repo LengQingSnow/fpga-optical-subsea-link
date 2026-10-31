@@ -1,0 +1,105 @@
+{
+  "checked_on": "2026-10-31",
+  "scope": "Archived firmware resource, clock and reported-path timing statistics. No new synthesis, implementation or board test. Does not assert all published source variants reproduce these artifacts.",
+  "boards": [
+    {
+      "board": "AX7101",
+      "artifact": "code/ax7101/project/bitstream/ax7101_dual_dataset_udp_trim160s_optimized.bit",
+      "sha256": "974269cf04a759818622877bf1ab50a49481a1a4eb60a34f09b943af7f74a0c8",
+      "bit_header_build_time": "2026-08-19 09:13:00",
+      "device": "xc7a100t-fgg484",
+      "tool": "Vivado 2021.2",
+      "resources": null,
+      "wns_ns": null,
+      "tns_ns": null,
+      "record_status": "Matching final implementation report not located; no historical values substituted",
+      "major_clocks_mhz": {
+        "system_input": 200,
+        "ethernet": 125
+      },
+      "clock_basis": "published RTL and XDC, not final implementation report"
+    },
+    {
+      "board": "KU115",
+      "artifact": "code/ku115_txonly_fifo_fix/bit_archive/sender_ku115_qsfp1tx_txonly_4gbaud_16g_packet_backpressure_fix.bit",
+      "sha256": "14296efb015bb167aef0f8df182a5da891217e89b8130626c06dcd44fa7aa6a9",
+      "bit_header_build_time": "2026-07-28 17:36:48",
+      "device": "xcku115-flva1517-2-i",
+      "tool": "Vivado 2021.2",
+      "timing_source_sha256": "69ead08e7f6a10f68f2cf8f9b4bdd7f43593f56e6773ce853f8d19dc94931b60",
+      "resources": {
+        "lut": 31700,
+        "register": 40343,
+        "bram_36k_tiles": 130.5,
+        "dsp": 0
+      },
+      "wns_ns": 0.281,
+      "tns_ns": 0,
+      "whs_ns": 0.004,
+      "ths_ns": 0,
+      "major_clocks_mhz": {
+        "system_input": 50,
+        "aggregation": 125,
+        "qsfp_user": 161.133,
+        "qsfp_reference": 156.25
+      },
+      "record_status": "archived bitstream hash matches implementation output"
+    },
+    {
+      "board": "RF47",
+      "artifact": "code/da_project/porject/rf47_persistent_long_prbs_20260922/rf47_long_prbs.bit",
+      "sha256": "33e09c056a123c6c6d7ae524a4eb907fe47c52411d9dfc85ec89c4f0e1aa6adb",
+      "bit_header_build_time": "2026-09-21 12:27:59",
+      "device": "xczu47dr-ffve1156-2-i",
+      "tool": "Vivado 2021.2",
+      "timing_source_sha256": "6179235f9c265c71e9f09503795234a70acf3ff25d8da7eeb1ea5c062e12bdf5",
+      "resources": {
+        "lut": 56064,
+        "register": 55921,
+        "bram_36k_tiles": 338,
+        "dsp": 1420
+      },
+      "wns_ns": 0.033,
+      "tns_ns": 0,
+      "whs_ns": 0.01,
+      "ths_ns": 0,
+      "major_clocks_mhz": {
+        "pl_input": 200,
+        "processing": 250,
+        "dac_parallel": 500,
+        "qsfp_reference": 156.25,
+        "qsfp_user": 161.133
+      },
+      "record_status": "archived bitstream hash matches verified output; resource and clock reports exported from saved verified routed checkpoint"
+    }
+  ],
+  "files": [
+    {
+      "path": "ku115/utilization.rpt",
+      "sha256": "62bb5b2e26c4aa2007724adb5449a8fe3b44f72bf50cb94c6fca6055c03de6d5",
+      "kind": "unmodified resource or clock report"
+    },
+    {
+      "path": "rf47/utilization.rpt",
+      "sha256": "59540098e68d3e0f6d665ab1b47dd52413aa5760bbc62d5675b6e2fe495ff383",
+      "kind": "unmodified resource or clock report"
+    },
+    {
+      "path": "rf47/clocks.rpt",
+      "sha256": "9d8365d415ce9980a29d0ec7382c8c95b4e8745d8b0eff59c3974ca03339ff65",
+      "kind": "unmodified resource or clock report"
+    },
+    {
+      "path": "ku115/timing_clock_excerpt.rpt",
+      "sha256": "d830c2d61601b79a49ccb92696c793b9e0288aee9d3f431e91cb6ab956ee2e41",
+      "source_sha256": "69ead08e7f6a10f68f2cf8f9b4bdd7f43593f56e6773ce853f8d19dc94931b60",
+      "kind": "explicit numeric excerpt, not complete report"
+    },
+    {
+      "path": "rf47/timing_clock_excerpt.rpt",
+      "sha256": "54e11e732aa55062351f60e31dd87602dc2cdc104e1766756c2541ea5fd2980b",
+      "source_sha256": "6179235f9c265c71e9f09503795234a70acf3ff25d8da7eeb1ea5c062e12bdf5",
+      "kind": "explicit numeric excerpt, not complete report"
+    }
+  ]
+}

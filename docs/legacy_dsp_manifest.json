@@ -1,0 +1,215 @@
+{
+  "note": "Legacy algorithm retained. Only deterministic English path / MATLAB entry-name substitutions; baseline and published hashes are both retained. No newer DSP imported.",
+  "sha256": {
+    "r_matlab/matlab/main_realtime_eye.m": "c4a2ae56e204e8e14254ce2a1231c236c5a4685b5b421383c96565e9763e31e8",
+    "r_matlab/matlab/rf47_cma_btb_dsp.m": "74b95b6d3c0a6539be8ab1373a8fc6aebe4d86d6063a2992050e89ed76a94da8",
+    "r_matlab/matlab/rf47_cma_cd_core.m": "316a2b934111ae8050482ff4ce424dd81d91646d395c61971ccf515ad1244eda",
+    "r_matlab/matlab/rf47_cma_cd_dsp.m": "4682def4589e3748d5855355fba570630cdd678043a81851b6de92df50dd912c",
+    "r_matlab/matlab/rf47_cma_content_dsp.m": "6e16f06b9da8f01c69c69d169bb465bd1a43b3c0f7ef39feab8e4c45c8cc3c36",
+    "r_matlab/matlab/rf47_lms_btb_dsp.m": "443c6abf9b699bf623ffe0d3d73dc68ca24a4ee972b854e46003624ac64bf3ba",
+    "r_matlab/matlab/rf47_lms_content_dsp.m": "8b0a2faf0db0553af941aff1d5a037bed111ae94f8bd2ac12cd20367dec52a5b",
+    "r_matlab/matlab/+rf47lmsbtb/acquire.m": "9a9cefb64ea50656a5035ac00dbfeebfefda5e2b05f11e9394af9fab516b28b3",
+    "r_matlab/matlab/+rf47lmsbtb/btb_blind_levels.m": "640da19ba93f67660317fc007df16593c27b4bd8161cccc7073808a6142878ec",
+    "r_matlab/matlab/+rf47lmsbtb/btb_carrier.m": "a512eaeade8e59a3b2d52c39cdeaed9599ab89286a5a31bb7aed0c1097412c69",
+    "r_matlab/matlab/+rf47lmsbtb/btb_cma.m": "6f51c0e22a50ce616a24183d599d29283caa7606ce0f8f5d5f78da0f8e82e744",
+    "r_matlab/matlab/+rf47lmsbtb/btb_frontend.m": "bcc57f244bd8429dfa1e7c899178efd012738afac7d9993156707f735928b1b8",
+    "r_matlab/matlab/+rf47lmsbtb/btb_metrics.m": "d7b46badf7248f04185e1a564da27f6b66c56be8582c2b815a0ad72dd97bc618",
+    "r_matlab/matlab/+rf47lmsbtb/btb_reference_align.m": "c7093189f696d39ecedcd10e72d613a525df1e1effada351ab6bd43476961847",
+    "r_matlab/matlab/+rf47lmsbtb/btb_taps.m": "6fc9fbe8084cf46886117808bbe9659978a227a90504d27a4811a2969b9af487",
+    "r_matlab/matlab/+rf47lmsbtb/calibrate_post_dsp.m": "0fc3e5d4b9ec51027ef71943d293c4167a34096a5748398deb0bb0e553a4c9ac",
+    "r_matlab/matlab/+rf47lmsbtb/check_sync.m": "73bc5f58d5405ab3732fdab8a46c77abf0c748d43d283f26cb85886070b2d89b",
+    "r_matlab/matlab/+rf47lmsbtb/fit_channel_lms.m": "600e0e5bd98c2fad02f616a9d3e0a39585f6dc24d32d4e20aad14493357b48a9",
+    "r_matlab/matlab/+rf47lmsbtb/lms_cluster_shape.m": "a5afd9852589b84cd2db4beb466e09b15e282ebb82fd185106f5f8fd13b0d992",
+    "r_matlab/matlab/+rf47lmsbtb/lms_continuous_phase.m": "717a8faa3daf5d596d953eec945fb46d44b2c240c7967e8e3bf668025a2ef36b",
+    "r_matlab/matlab/+rf47lmsbtb/lms_evm_cpr.m": "adbe7d30c2706acc2d7f4f2d91caac1e2653d92c8014ba77a7f21f1c6abc35e0",
+    "r_matlab/matlab/+rf47lmsbtb/noise_predictive_smoother.m": "7f52caf683659ed934463e9e959cffc38b8e447b4e761bef2033de30dada71ad",
+    "r_matlab/matlab/+rf47lmsbtb/recover_joint_prefix.m": "dfe5a8a53d74d92bc941f7ebffb7d73971b30e325878cd679693b9bd2a1c434f",
+    "r_matlab/matlab/+rf47lmsbtb/recover_prefix_mapping.m": "f788ace3eee1528470dd605e82272766aac61b1ac627096bb4da3cc17cb24737",
+    "r_matlab/matlab/+rf47lmsbtb/template_phase.m": "d634e0da92e1e462949b42db929097ff6ebbd471af6f7ebb40c977727341234f",
+    "r_matlab/matlab/+rf47lmsbtb/track_template_phase.m": "6baf9531436a4ef20c5b31979654f018f37a535663e20076d717d6aa84b59971"
+  },
+  "provenance": [
+    {
+      "before": "R_matlab/matlab/MAIN_REALTIME_EYE.m",
+      "after": "r_matlab/matlab/main_realtime_eye.m",
+      "baseline_sha256": "1dc11a581e50da389d2211a4c2f63dacbb7837aa56ceaeb9b11a48a7547aee80",
+      "published_sha256": "c4a2ae56e204e8e14254ce2a1231c236c5a4685b5b421383c96565e9763e31e8",
+      "change": "path/entry-name transformation only"
+    },
+    {
+      "before": "R_matlab/matlab/rf47_cma_btb_dsp.m",
+      "after": "r_matlab/matlab/rf47_cma_btb_dsp.m",
+      "baseline_sha256": "74b95b6d3c0a6539be8ab1373a8fc6aebe4d86d6063a2992050e89ed76a94da8",
+      "published_sha256": "74b95b6d3c0a6539be8ab1373a8fc6aebe4d86d6063a2992050e89ed76a94da8",
+      "change": "byte-identical"
+    },
+    {
+      "before": "R_matlab/matlab/rf47_cma_cd_core.m",
+      "after": "r_matlab/matlab/rf47_cma_cd_core.m",
+      "baseline_sha256": "316a2b934111ae8050482ff4ce424dd81d91646d395c61971ccf515ad1244eda",
+      "published_sha256": "316a2b934111ae8050482ff4ce424dd81d91646d395c61971ccf515ad1244eda",
+      "change": "byte-identical"
+    },
+    {
+      "before": "R_matlab/matlab/rf47_cma_cd_dsp.m",
+      "after": "r_matlab/matlab/rf47_cma_cd_dsp.m",
+      "baseline_sha256": "4682def4589e3748d5855355fba570630cdd678043a81851b6de92df50dd912c",
+      "published_sha256": "4682def4589e3748d5855355fba570630cdd678043a81851b6de92df50dd912c",
+      "change": "byte-identical"
+    },
+    {
+      "before": "R_matlab/matlab/rf47_cma_content_dsp.m",
+      "after": "r_matlab/matlab/rf47_cma_content_dsp.m",
+      "baseline_sha256": "6e16f06b9da8f01c69c69d169bb465bd1a43b3c0f7ef39feab8e4c45c8cc3c36",
+      "published_sha256": "6e16f06b9da8f01c69c69d169bb465bd1a43b3c0f7ef39feab8e4c45c8cc3c36",
+      "change": "byte-identical"
+    },
+    {
+      "before": "R_matlab/matlab/rf47_lms_btb_dsp.m",
+      "after": "r_matlab/matlab/rf47_lms_btb_dsp.m",
+      "baseline_sha256": "443c6abf9b699bf623ffe0d3d73dc68ca24a4ee972b854e46003624ac64bf3ba",
+      "published_sha256": "443c6abf9b699bf623ffe0d3d73dc68ca24a4ee972b854e46003624ac64bf3ba",
+      "change": "byte-identical"
+    },
+    {
+      "before": "R_matlab/matlab/rf47_lms_content_dsp.m",
+      "after": "r_matlab/matlab/rf47_lms_content_dsp.m",
+      "baseline_sha256": "8b0a2faf0db0553af941aff1d5a037bed111ae94f8bd2ac12cd20367dec52a5b",
+      "published_sha256": "8b0a2faf0db0553af941aff1d5a037bed111ae94f8bd2ac12cd20367dec52a5b",
+      "change": "byte-identical"
+    },
+    {
+      "before": "R_matlab/matlab/+rf47lmsbtb/acquire.m",
+      "after": "r_matlab/matlab/+rf47lmsbtb/acquire.m",
+      "baseline_sha256": "9a9cefb64ea50656a5035ac00dbfeebfefda5e2b05f11e9394af9fab516b28b3",
+      "published_sha256": "9a9cefb64ea50656a5035ac00dbfeebfefda5e2b05f11e9394af9fab516b28b3",
+      "change": "byte-identical"
+    },
+    {
+      "before": "R_matlab/matlab/+rf47lmsbtb/btb_blind_levels.m",
+      "after": "r_matlab/matlab/+rf47lmsbtb/btb_blind_levels.m",
+      "baseline_sha256": "640da19ba93f67660317fc007df16593c27b4bd8161cccc7073808a6142878ec",
+      "published_sha256": "640da19ba93f67660317fc007df16593c27b4bd8161cccc7073808a6142878ec",
+      "change": "byte-identical"
+    },
+    {
+      "before": "R_matlab/matlab/+rf47lmsbtb/btb_carrier.m",
+      "after": "r_matlab/matlab/+rf47lmsbtb/btb_carrier.m",
+      "baseline_sha256": "a512eaeade8e59a3b2d52c39cdeaed9599ab89286a5a31bb7aed0c1097412c69",
+      "published_sha256": "a512eaeade8e59a3b2d52c39cdeaed9599ab89286a5a31bb7aed0c1097412c69",
+      "change": "byte-identical"
+    },
+    {
+      "before": "R_matlab/matlab/+rf47lmsbtb/btb_cma.m",
+      "after": "r_matlab/matlab/+rf47lmsbtb/btb_cma.m",
+      "baseline_sha256": "6f51c0e22a50ce616a24183d599d29283caa7606ce0f8f5d5f78da0f8e82e744",
+      "published_sha256": "6f51c0e22a50ce616a24183d599d29283caa7606ce0f8f5d5f78da0f8e82e744",
+      "change": "byte-identical"
+    },
+    {
+      "before": "R_matlab/matlab/+rf47lmsbtb/btb_frontend.m",
+      "after": "r_matlab/matlab/+rf47lmsbtb/btb_frontend.m",
+      "baseline_sha256": "bcc57f244bd8429dfa1e7c899178efd012738afac7d9993156707f735928b1b8",
+      "published_sha256": "bcc57f244bd8429dfa1e7c899178efd012738afac7d9993156707f735928b1b8",
+      "change": "byte-identical"
+    },
+    {
+      "before": "R_matlab/matlab/+rf47lmsbtb/btb_metrics.m",
+      "after": "r_matlab/matlab/+rf47lmsbtb/btb_metrics.m",
+      "baseline_sha256": "d7b46badf7248f04185e1a564da27f6b66c56be8582c2b815a0ad72dd97bc618",
+      "published_sha256": "d7b46badf7248f04185e1a564da27f6b66c56be8582c2b815a0ad72dd97bc618",
+      "change": "byte-identical"
+    },
+    {
+      "before": "R_matlab/matlab/+rf47lmsbtb/btb_reference_align.m",
+      "after": "r_matlab/matlab/+rf47lmsbtb/btb_reference_align.m",
+      "baseline_sha256": "c7093189f696d39ecedcd10e72d613a525df1e1effada351ab6bd43476961847",
+      "published_sha256": "c7093189f696d39ecedcd10e72d613a525df1e1effada351ab6bd43476961847",
+      "change": "byte-identical"
+    },
+    {
+      "before": "R_matlab/matlab/+rf47lmsbtb/btb_taps.m",
+      "after": "r_matlab/matlab/+rf47lmsbtb/btb_taps.m",
+      "baseline_sha256": "6fc9fbe8084cf46886117808bbe9659978a227a90504d27a4811a2969b9af487",
+      "published_sha256": "6fc9fbe8084cf46886117808bbe9659978a227a90504d27a4811a2969b9af487",
+      "change": "byte-identical"
+    },
+    {
+      "before": "R_matlab/matlab/+rf47lmsbtb/calibrate_post_dsp.m",
+      "after": "r_matlab/matlab/+rf47lmsbtb/calibrate_post_dsp.m",
+      "baseline_sha256": "0fc3e5d4b9ec51027ef71943d293c4167a34096a5748398deb0bb0e553a4c9ac",
+      "published_sha256": "0fc3e5d4b9ec51027ef71943d293c4167a34096a5748398deb0bb0e553a4c9ac",
+      "change": "byte-identical"
+    },
+    {
+      "before": "R_matlab/matlab/+rf47lmsbtb/check_sync.m",
+      "after": "r_matlab/matlab/+rf47lmsbtb/check_sync.m",
+      "baseline_sha256": "73bc5f58d5405ab3732fdab8a46c77abf0c748d43d283f26cb85886070b2d89b",
+      "published_sha256": "73bc5f58d5405ab3732fdab8a46c77abf0c748d43d283f26cb85886070b2d89b",
+      "change": "byte-identical"
+    },
+    {
+      "before": "R_matlab/matlab/+rf47lmsbtb/fit_channel_lms.m",
+      "after": "r_matlab/matlab/+rf47lmsbtb/fit_channel_lms.m",
+      "baseline_sha256": "600e0e5bd98c2fad02f616a9d3e0a39585f6dc24d32d4e20aad14493357b48a9",
+      "published_sha256": "600e0e5bd98c2fad02f616a9d3e0a39585f6dc24d32d4e20aad14493357b48a9",
+      "change": "byte-identical"
+    },
+    {
+      "before": "R_matlab/matlab/+rf47lmsbtb/lms_cluster_shape.m",
+      "after": "r_matlab/matlab/+rf47lmsbtb/lms_cluster_shape.m",
+      "baseline_sha256": "a5afd9852589b84cd2db4beb466e09b15e282ebb82fd185106f5f8fd13b0d992",
+      "published_sha256": "a5afd9852589b84cd2db4beb466e09b15e282ebb82fd185106f5f8fd13b0d992",
+      "change": "byte-identical"
+    },
+    {
+      "before": "R_matlab/matlab/+rf47lmsbtb/lms_continuous_phase.m",
+      "after": "r_matlab/matlab/+rf47lmsbtb/lms_continuous_phase.m",
+      "baseline_sha256": "717a8faa3daf5d596d953eec945fb46d44b2c240c7967e8e3bf668025a2ef36b",
+      "published_sha256": "717a8faa3daf5d596d953eec945fb46d44b2c240c7967e8e3bf668025a2ef36b",
+      "change": "byte-identical"
+    },
+    {
+      "before": "R_matlab/matlab/+rf47lmsbtb/lms_evm_cpr.m",
+      "after": "r_matlab/matlab/+rf47lmsbtb/lms_evm_cpr.m",
+      "baseline_sha256": "adbe7d30c2706acc2d7f4f2d91caac1e2653d92c8014ba77a7f21f1c6abc35e0",
+      "published_sha256": "adbe7d30c2706acc2d7f4f2d91caac1e2653d92c8014ba77a7f21f1c6abc35e0",
+      "change": "byte-identical"
+    },
+    {
+      "before": "R_matlab/matlab/+rf47lmsbtb/noise_predictive_smoother.m",
+      "after": "r_matlab/matlab/+rf47lmsbtb/noise_predictive_smoother.m",
+      "baseline_sha256": "7f52caf683659ed934463e9e959cffc38b8e447b4e761bef2033de30dada71ad",
+      "published_sha256": "7f52caf683659ed934463e9e959cffc38b8e447b4e761bef2033de30dada71ad",
+      "change": "byte-identical"
+    },
+    {
+      "before": "R_matlab/matlab/+rf47lmsbtb/recover_joint_prefix.m",
+      "after": "r_matlab/matlab/+rf47lmsbtb/recover_joint_prefix.m",
+      "baseline_sha256": "dfe5a8a53d74d92bc941f7ebffb7d73971b30e325878cd679693b9bd2a1c434f",
+      "published_sha256": "dfe5a8a53d74d92bc941f7ebffb7d73971b30e325878cd679693b9bd2a1c434f",
+      "change": "byte-identical"
+    },
+    {
+      "before": "R_matlab/matlab/+rf47lmsbtb/recover_prefix_mapping.m",
+      "after": "r_matlab/matlab/+rf47lmsbtb/recover_prefix_mapping.m",
+      "baseline_sha256": "f788ace3eee1528470dd605e82272766aac61b1ac627096bb4da3cc17cb24737",
+      "published_sha256": "f788ace3eee1528470dd605e82272766aac61b1ac627096bb4da3cc17cb24737",
+      "change": "byte-identical"
+    },
+    {
+      "before": "R_matlab/matlab/+rf47lmsbtb/template_phase.m",
+      "after": "r_matlab/matlab/+rf47lmsbtb/template_phase.m",
+      "baseline_sha256": "d634e0da92e1e462949b42db929097ff6ebbd471af6f7ebb40c977727341234f",
+      "published_sha256": "d634e0da92e1e462949b42db929097ff6ebbd471af6f7ebb40c977727341234f",
+      "change": "byte-identical"
+    },
+    {
+      "before": "R_matlab/matlab/+rf47lmsbtb/track_template_phase.m",
+      "after": "r_matlab/matlab/+rf47lmsbtb/track_template_phase.m",
+      "baseline_sha256": "6baf9531436a4ef20c5b31979654f018f37a535663e20076d717d6aa84b59971",
+      "published_sha256": "6baf9531436a4ef20c5b31979654f018f37a535663e20076d717d6aa84b59971",
+      "change": "byte-identical"
+    }
+  ]
+}
